@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src = index.js></script>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+ <title>Kalkulator</title>
+</head>
+<body>
+
+<section id="Section">
+
+<div id ="HeleKalkulatoren">
+<div id="wrapper">
+
+<table>
+
+    <input type="text" id="resultat"/>
+
+<div class="FlyttnedKnapper">
+    <tr>
+        <td><button class="knapper" id="Clear" onclick="Clear()">AC</button></td>
+        <td><button  class="knapper" id="1" onclick="Kalkulator('1')">1</button></td>
+        <td><button   class="knapper" id="+" onclick="Kalkulator('+')">+</button></td>
+        <td><button   class="knapper" id="pi" onclick="Kalkulator('3,14159265')">π</button></td>
+
+    </tr>
+
+    <tr>
+        <td><button  class="knapper" id="2" onclick="Kalkulator('2')">2</button></td>
+        <td><button class="knapper" id="3" onclick="Kalkulator('3')">3</button></td>
+        <td><button class="knapper"  id="-" onclick="Kalkulator('-')">-</button></td>
+        <td><button   class="knapper" id="½" onclick="Kalkulator('0.5')">½</button></td>
+    </tr>
+
+    <tr>
+        <td><button  class="knapper" id="4" onclick="Kalkulator('4')">4</button></td>
+        <td><button class="knapper"  id="5" onclick="Kalkulator('5')">5</button></td>
+        <td><button class="knapper" id="*" onclick="Kalkulator('*')">*</button></td>
+        <td><button class="knapper" id="¼" onclick="Kalkulator('0.25')">¼</button></td>
+    </tr>
+
+    <tr>
+        <td><button   class="knapper" id="6" onclick="Kalkulator('6')">6</button></td>
+        <td><button class="knapper"  id="7" onclick="Kalkulator('7')">7</button></td>
+        <td><button class="knapper" id="/" onclick="Kalkulator('/')">/</button></td>
+        <td><button class="knapper" id="⅛" onclick="Kalkulator('0.125')">⅛</button></td>
+
+    </tr>
+
+    <tr>
+        <td><button  class="knapper" id="8" onclick="Kalkulator('8')">8</button></td>
+        <td><button class="knapper" id="9" onclick="Kalkulator('9')">9</button></td>
+        <td><button  class="knapper" id="0" onclick="Kalkulator('0')">0</button></td>
+        <td><button class="knapper" id="⅒" onclick="Kalkulator('0.1')">⅒</button></td>
+    </tr>
+</div>
+</table>
+
+    <button  class="knapper" id="Erlik" onclick="Løs()">=</button>
+
+
+
+
+
+
+</div>
+</div>
+
+</section>
+</body>
+</html>
